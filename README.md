@@ -27,7 +27,6 @@ pip freeze -> requirements.txt
 # Command were used during the project creation process
 - django-admin startproject python_django_department
 - python manage.py startapp departments_api
-- python manage.py startapp departments_api_v2
 
 # Command were used on a first startup to init database
 - python manage.py makemigrations
