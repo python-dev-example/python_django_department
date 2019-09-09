@@ -4,6 +4,8 @@
 
 Small example of Django REST API for departments and employees with token security authentication.
 
+Organization have some departments and employees, which are belong to one of them. 
+Departments and employees can be added/edited/removed or showed with or without pagination using API
 
 # Used libraries
 
@@ -22,14 +24,15 @@ To freeze library versions python command can be used:
 pip freeze -> requirements.txt
 ```
 
-# Was done during the project creation process
-django-admin startproject python_django_department
-python manage.py startapp departments_api
+# Command were used during the project creation process
+- django-admin startproject python_django_department
+- python manage.py startapp departments_api
+- python manage.py startapp departments_api_v2
 
-# Needs to be user on first start to init database
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
+# Command were used on a first startup to init database
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser
 
 # Start application
 
